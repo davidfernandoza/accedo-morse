@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Codigo Morse</title>
+</head>
+<body>
+	<section class="container">
+		<div class="form">
+			<label for="moser">Codigo morse</label>
+			<input type="text" id="morse" onkeypress="return check(event)">
+			<button id="sendMorse">Descifrar</button>
+			
+			<label for="moser">Texto</label>
+			<input type="text" id="text" onkeypress="return check(event)">
+			<button id="sendText">Cifrar</button>
+		</div>
+	</section>	
+		
+	<script >
+		function check(event){
+			let patron = /[a-z]/;
+			switch (event.path[0].id) {
+				case 'morse':{
+					patron = /[-. ]/
+					return validateString(patron, event)			
+				}
+				default:
+				return validateString(patron, event)		
+			}
+			
+		}
+		// 
+	</script>
+	<script src="./js/selector.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
