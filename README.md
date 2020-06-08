@@ -3,7 +3,7 @@ Test de lógica con ejercicio de código morse.
 
 Ejecutar: 
 
-<a href="https://davidfernandoza.github.io/accedo-matriz/" target="_blank">https://davidfernandoza.github.io/accedo-matriz/</a>
+<a href="https://davidfernandoza.github.io/accedo-morse/" target="_blank">https://davidfernandoza.github.io/accedo-morse/</a>
 
 
 * * *
